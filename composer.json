@@ -1,23 +1,22 @@
 {
-	"name": "darsain/laravel-console",
-	"description": "Browser console for Laravel Framework.",
-	"keywords": [
-		"laravel",
-		"browser",
-		"console"
-	],
-	"license": "MIT",
-	"require": {
-		"php": ">=5.3.0",
-		"illuminate/support": ">=4.0.0"
-	},
-	"autoload": {
-		"classmap": [
-			"src/controllers"
-		],
-		"psr-0": {
-			"Darsain\\Console\\": "src/"
-		}
-	},
-	"minimum-stability": "dev"
+    "name": "vanchelo/laravel-console",
+    "description": "Browser console for Laravel Framework.",
+    "keywords": [
+        "laravel",
+        "browser",
+        "develop",
+        "ajax",
+        "console"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vanchelo\\LaravelConsole\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
